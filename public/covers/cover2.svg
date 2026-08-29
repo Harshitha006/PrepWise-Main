@@ -1,0 +1,16 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200">
+  <defs>
+    <radialGradient id="g1" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0a0a0f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="200" fill="#0a0a0f"/>
+  <rect width="400" height="200" fill="url(#g1)"/>
+  <polygon points="200,50 230,110 170,110" fill="none" stroke="#7c3aed" stroke-opacity="0.2" stroke-width="1"/>
+  <polygon points="200,30 260,130 140,130" fill="none" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1"/>
+  <polygon points="200,10 290,150 110,150" fill="none" stroke="#9c4ded" stroke-opacity="0.1" stroke-width="1"/>
+  <circle cx="80" cy="40" r="20" fill="none" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1"/>
+  <circle cx="320" cy="160" r="30" fill="none" stroke="#7c3aed" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="200" y="108" text-anchor="middle" font-family="monospace" font-size="20" font-weight="bold" fill="#9c4ded" opacity="0.2" letter-spacing="8">AI</text>
+</svg>

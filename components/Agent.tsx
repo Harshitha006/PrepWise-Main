@@ -107,7 +107,7 @@ export default function Agent({
       if (isSupported) {
         startListening().then((spokenAnswer) => {
           // Only use this if the text submit hasn't already fired
-          setResolveAnswer((current) => {
+          setResolveAnswer((current: ((val: string) => void) | null) => {
             if (current) {
               resolve(spokenAnswer);
               return null;
